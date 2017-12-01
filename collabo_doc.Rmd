@@ -1,0 +1,23 @@
+---
+title: "collabo-doc"
+author: "Robin Elahi"
+date: "December 1, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+cars
+
+plot(speed ~ dist, data = cars)
+
+library(ggplot2)
+qplot(dist, speed, data = cars)
+
+```
+
